@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "vite.config.ts": true,
+    "tsconfig.node.json": true,
+    "tsconfig.json": true,
+    "postcss.config.cjs": true,
+    "pnpm-lock.yaml": true,
+    ".yarnrc.yml": true,
+    ".eslintrc.cjs": true,
+    ".eslintignore": true,
+    "public": true,
+    "node_modules": true,
+    ".vscode": true
+  }
+}
