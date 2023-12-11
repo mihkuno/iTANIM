@@ -10,6 +10,8 @@
     ".eslintignore": true,
     "public": true,
     "node_modules": true,
-    ".vscode": true
+    ".vscode": true,
+    "src\\vite-env.d.ts": true,
+    "src\\theme.ts": true
   }
 }
