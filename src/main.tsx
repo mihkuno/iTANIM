@@ -1,13 +1,14 @@
 import ReactDOM from 'react-dom/client';
 import { MantineProvider } from '@mantine/core';
-import Home from './pages/Home';
 import { theme } from './theme';
 import '@mantine/core/styles.css';
+import Home from './pages/Home';
+import Landing from './pages/Landing';
 
 function App() {
 	return (
 		<MantineProvider theme={theme}>
-			<Home />
+			<Landing />
 		</MantineProvider>
 	);
 }
