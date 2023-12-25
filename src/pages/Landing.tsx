@@ -1,20 +1,22 @@
 import { Image, Container, Button, Group, Text, Center, Flex } from '@mantine/core';
 import { useContext, useState } from 'react';
 // import { AccountContext } from '../provider/AccountProvider';
+import { Header } from './Header';
 
-import image from '../assets/logo.jpg';
+import image from '../assets/logo.png';
 import styles from '../styles/Landing.module.css';
 
 function Hero() {
 	return (
-		<Container size="lg">
-			<Flex align="center" justify="center" style={{ minHeight: '90vh', width: '100%' }}>
+		<Container size="md">
+			<Flex align="center" justify="center">
 				<div className={styles.inner}>
 					<div className={styles.content}>
-						<Text className={styles.title}>iTanim</Text>
+						<Text className={styles.title}>Find plants near you.</Text>
 
-						<Text size="md" mt="md">
-							Discover plants to shop and sell near you!
+						<Text c="dimmed" mt="sm" maw={400}>
+							The best place to connect with local sellers and discover a vibrant marketplace
+							for all your gardening needs!
 						</Text>
 
 						<Group mt={30}>
@@ -47,6 +49,7 @@ export default function Landing() {
 
 	return (
 		<>
+			<Header />
 			<Hero />
 		</>
 	);
